@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int cap=250, lat=200, esp=300;
+	int cap=200, lat=150, esp=250;
 	int*ptrcap=&cap;
 	int*ptrlat=&lat;
 	int*ptresp=&esp;
@@ -27,4 +27,5 @@ cout<<"Total Bill = "<<*ptrtotal<<endl;
 
 
     return 0;
+
 }
