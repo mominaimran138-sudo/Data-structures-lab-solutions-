@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -128,10 +129,10 @@ int main(){
         cout << "(b) Tail patient ID: (none)" << endl;
     }
 
-    cout << "(c) Forward (head → tail): ";
+    cout << "(c) Forward (head -> tail): ";
     list.travforward();
 
-    cout << "(d) Backward (tail → head): ";
+    cout << "(d) Backward (tail -> head): ";
     list.travbackward();
 
     return 0;
